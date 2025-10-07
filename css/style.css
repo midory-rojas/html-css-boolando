@@ -34,11 +34,45 @@ section {
     margin-bottom: 20px;      
 }
 
+.card {
+    position:relative;
+}
 .discount {
     background-color: red;
     color:white;
+    position: absolute;
+    bottom:80px;
+    left:10px;
 }
 .sostenibilità {
     background-color: green;
     color:white;
+    position:absolute;
+    bottom:80px;
+    left:55px;
+}
+.card .hearts{
+    font-size:1rem;
+    position:absolute;
+    right:0;
+    top:3px;
+}
+.description{
+    margin: 0 10px;
+    font-size: 14px;
+    color:black
+}
+.price {
+    margin:6px 10px;
+}
+.price.offer {
+    color: red;
+    font-size:15px;
+    font-weight:bold;   
+}
+.price.old {
+    color: gray;
+    font-size:14px;
+    text-decoration:line-through;
+    margin-left:5px;
 }
