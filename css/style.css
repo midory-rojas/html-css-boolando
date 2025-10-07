@@ -58,21 +58,20 @@ section {
     top:3px;
 }
 .description{
-    margin: 0 10px;
     font-size: 14px;
     color:black
 }
 .price {
-    margin:6px 10px;
-}
-.price.offer {
-    color: red;
+    display:flex;
+    gap:10px;
     font-size:15px;
-    font-weight:bold;   
+    font-weight:bold; 
 }
-.price.old {
-    color: gray;
-    font-size:14px;
+  
+.offer{
+    color:red;
+}
+.old{
     text-decoration:line-through;
-    margin-left:5px;
+    color: gray;  
 }
