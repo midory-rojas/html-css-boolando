@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin:0;
     padding:0;
@@ -6,6 +7,13 @@
 img {
     max-width:100%
 }
+body {
+    font-family: sans-serif;
+}
+
+
+
+
 section {
     padding:30px 0;
 }
@@ -14,15 +22,23 @@ section {
     max-width:1000px;
     margin:0 auto;
 }
-.row {
+.row{
     display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;   
 }
-.col-30 {
-    width:30%;
-    margin-bottom:20px;
 
-    min-height:200px;
-    border:1px solid black;
+
+.col-30{
+    width:30%;
+    margin-bottom: 20px;      
+}
+
+.discount {
+    background-color: red;
+    color:white;
+}
+.sostenibilità {
+    background-color: green;
+    color:white;
 }
